@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="js/jquery-1.12.2.min.js" charset="utf-8"></script>
+    <script src="js/script.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
+    <title>Groceries!</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Grocery List</h1>
+
+      <div id="inputs" class="container">
+        <form class="shoppingList" action="index.html" method="post">
+          <div class="form-group">
+            <label for="item1">Item</label>
+            <input id="item1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="item2">Item</label>
+            <input id="item2" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="item3">Item</label>
+            <input id="item3" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="item4">Item</label>
+            <input id="item4" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="item5">Item</label>
+            <input id="item5" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="item6">Item</label>
+            <input id="item6" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn">Make my list!</button>
+        </form>
+      </div>
+      <div id="outputs" class="container">
+        <ol id="grocery-list">
+
+        </ol>
+      </div>
+
+    </div>
+
+  </body>
+</html>
